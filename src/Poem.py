@@ -26,12 +26,14 @@ class Poem:
             self.poem = self.get_shijing()
         elif category == 3:
             self.poem = self.get_wudai()
-        print(self.poem)
+        return self.poem
 
     def get_ci(self):
         addr = '../poem/ci/ci.song.' + str(self.__get_random_number(21) * 1000) + '.json'
         poems_array = json.load(open(addr, 'r', encoding='utf-8'))
-        return poems_array[self.__get_random_number(1000)]
+        poem = poems_array[self.__get_random_number(1000)]
+        poem['title'] = poem['rhythmic']
+        return poem
 
     def get_shi(self):
         random_number = self.__get_random_number(1)
@@ -45,7 +47,7 @@ class Poem:
         poems_array = json.load(open(addr, 'r', encoding='utf-8'))
         poem = poems_array[self.__get_random_number(len(poems_array))]
         return {
-            'title': poem['chapter'] + ' ' + poem['section'] + ' ' + poem['title'],
+            'title': poem['chapter'] + '·' + poem['section'] + '·' + poem['title'],
             'paragraphs': poem['content'],
             'author': ''
         }
@@ -55,8 +57,3 @@ class Poem:
                                    '花间集卷第八', '花间集卷第九', '花间集卷第十'][self.__get_random_number(10)] + '.json'
         poems_array = json.load(open(addr, 'r', encoding='utf-8'))
         return poems_array[self.__get_random_number(len(poems_array))]
-
-
-if __name__ == '__main__':
-    poem = Poem()
-    poem.get_poem()

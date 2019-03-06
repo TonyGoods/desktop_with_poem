@@ -2,326 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8257b8-45c5-4638-ada5-a6745146b493" name="Default Changelist" comment="add poems data">
-      <change afterPath="$PROJECT_DIR$/src/Poem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/authors.song.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/authors.tang.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.1000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.10000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.100000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.101000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.102000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.103000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.104000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.105000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.106000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.107000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.108000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.109000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.11000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.110000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.111000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.112000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.113000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.114000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.115000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.116000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.117000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.118000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.119000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.12000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.120000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.121000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.122000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.123000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.124000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.125000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.126000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.127000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.128000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.129000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.13000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.130000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.131000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.132000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.133000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.134000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.135000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.136000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.137000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.138000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.139000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.14000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.140000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.141000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.142000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.143000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.144000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.145000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.146000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.147000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.148000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.149000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.15000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.150000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.151000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.152000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.153000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.154000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.155000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.156000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.157000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.158000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.159000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.16000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.160000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.161000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.162000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.163000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.164000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.165000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.166000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.167000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.168000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.169000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.17000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.170000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.171000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.172000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.173000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.174000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.175000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.176000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.177000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.178000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.179000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.18000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.180000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.181000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.182000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.183000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.184000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.185000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.186000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.187000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.188000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.189000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.19000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.190000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.191000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.192000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.193000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.194000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.195000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.196000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.197000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.198000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.199000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.2000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.20000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.200000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.201000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.202000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.203000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.204000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.205000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.206000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.207000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.208000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.209000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.21000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.210000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.211000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.212000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.213000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.214000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.215000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.216000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.217000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.218000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.219000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.22000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.220000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.221000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.222000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.223000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.224000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.225000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.226000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.227000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.228000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.229000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.23000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.230000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.231000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.232000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.233000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.234000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.235000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.236000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.237000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.238000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.239000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.24000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.240000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.241000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.242000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.243000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.244000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.245000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.246000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.247000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.248000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.249000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.25000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.250000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.251000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.252000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.253000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.254000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.26000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.27000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.28000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.29000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.3000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.30000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.31000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.32000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.33000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.34000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.35000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.36000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.37000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.38000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.39000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.4000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.40000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.41000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.42000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.43000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.44000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.45000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.46000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.47000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.48000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.49000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.5000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.50000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.51000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.52000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.53000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.54000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.55000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.56000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.57000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.58000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.59000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.6000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.60000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.61000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.62000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.63000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.64000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.65000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.66000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.67000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.68000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.69000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.7000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.70000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.71000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.72000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.73000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.74000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.75000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.76000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.77000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.78000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.79000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.8000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.80000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.81000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.82000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.83000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.84000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.85000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.86000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.87000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.88000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.89000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.9000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.90000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.91000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.92000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.93000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.94000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.95000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.96000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.97000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.98000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.song.99000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.1000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.10000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.11000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.12000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.13000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.14000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.15000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.16000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.17000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.18000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.19000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.2000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.20000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.21000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.22000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.23000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.24000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.25000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.26000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.27000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.28000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.29000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.3000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.30000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.31000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.32000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.33000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.34000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.35000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.36000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.37000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.38000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.39000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.4000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.40000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.41000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.42000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.43000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.44000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.45000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.46000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.47000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.48000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.49000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.5000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.50000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.51000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.52000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.53000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.54000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.55000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.56000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.57000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.6000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.7000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.8000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/poet.tang.9000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/json/表面结构字.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/sishuwujing/mengzi.json" beforeDir="false" afterPath="$PROJECT_DIR$/poem/sishuwujing/mengzi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Poem.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.pyw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -331,19 +15,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/desktop_with_poem$Poem.coverage" NAME="Poem Coverage Results" MODIFIED="1551839624629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/desktop_with_poem$main_pyw.coverage" NAME="main.pyw Coverage Results" MODIFIED="1551835461821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/desktop_with_poem$Poem.coverage" NAME="Poem Coverage Results" MODIFIED="1551842080176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/desktop_with_poem$main_pyw.coverage" NAME="main.pyw Coverage Results" MODIFIED="1551842908948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Poem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="174">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="e#117#128#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.pyw">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poem/ci/ci.song.3000.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -369,10 +76,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main.pyw.py" />
-        <option value="$PROJECT_DIR$/src/main.pyw" />
-        <option value="$PROJECT_DIR$/src/test.txt" />
         <option value="$PROJECT_DIR$/poem/sishuwujing/mengzi.json" />
+        <option value="$PROJECT_DIR$/src/test.txt" />
         <option value="$PROJECT_DIR$/src/Poem.py" />
+        <option value="$PROJECT_DIR$/src/main.pyw" />
       </list>
     </option>
   </component>
@@ -387,7 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Poem">
+  <component name="RunManager" selected="Python.main.pyw">
     <configuration name="Poem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="desktop_with_poem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -470,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Poem" />
         <item itemvalue="Python.main.pyw" />
+        <item itemvalue="Python.Poem" />
         <item itemvalue="Python.main.pyw" />
         <item itemvalue="Python.main.pyw" />
       </list>
@@ -501,17 +208,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6520000" />
+    <option name="totallyTimeSpent" value="8426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25635877" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25635877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32957748" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32957748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,16 +292,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -701,13 +399,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poem/ci/ci.song.3000.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Poem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="174">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#117#128#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.pyw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>

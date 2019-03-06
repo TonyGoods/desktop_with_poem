@@ -4,9 +4,15 @@
 # @FileName: main.pyw
 # @Software: PyCharm
 
-import time
+from src.Poem import Poem
 
-file = open("test.txt", "w")
-file.write(time.asctime(time.localtime(time.time())) + "\n")
-file.close()
-exit()
+if __name__ == '__main__':
+    file = open("test.txt", "w")
+    poem = Poem()
+    poem_json = poem.get_poem()
+    file.write(poem_json['title'] + '\n')
+    file.write(poem_json['author'] + '\n')
+    for i in range(len(poem_json['paragraphs'])):
+        file.write(poem_json['paragraphs'][i] + '\n')
+    file.close()
+    exit()
