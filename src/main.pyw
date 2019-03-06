@@ -3,11 +3,102 @@
 # @Author  : Tony Goods
 # @FileName: main.pyw
 # @Software: PyCharm
-from src.Image import Image
-from src.Poem import Poem
+
+import os
+import json
+import win32api
+import win32gui
+
+import win32con
+from PIL import Image as IMAGE, ImageDraw, ImageFont
+import random
+
+
+def get_random_number(max_number):
+    return random.randint(0, max_number)
+
+
+class Image:
+    def __init__(self, poem):
+        self.__poem = poem
+
+    def get_image(self):
+        im = IMAGE.open('../images/' + str(get_random_number(self.__get_images_number())) + '.jpg')
+        ttfont = ImageFont.truetype('STXINGKA.TTF', 28)
+        draw = ImageDraw.Draw(im)
+        xSize, ySize = im.size
+        print(self.__poem)
+        poem_string = u'' + self.__poem['title'] + '\n' + self.__poem['author'] + '\n'
+        for sentence in self.__poem['paragraphs']:
+            poem_string += sentence + '\n'
+        draw.text((xSize * 0.5, ySize * 0.1), poem_string, fill=(255, 255, 255), font=ttfont)
+        im.save('../images/desktop.jpg')
+        k = win32api.RegOpenKeyEx(win32con.HKEY_CURRENT_USER, "Control Panel\\Desktop", 0, win32con.KEY_SET_VALUE)
+        win32api.RegSetValueEx(k, "WallpaperStyle", 0, win32con.REG_SZ, "2")
+        win32api.RegSetValueEx(k, "TileWallpaper", 0, win32con.REG_SZ, "0")
+        win32gui.SystemParametersInfo(win32con.SPI_SETDESKWALLPAPER,
+                                      os.path.abspath('../images/desktop.jpg'),
+                                      win32con.SPIF_SENDWININICHANGE)
+        file = open("test.txt", "a")
+        file.write(os.path.abspath(r'C:\Users\ZGuo32\Desktop\desktop_with_poem\src\images\desktop.jpg'))
+        file.close()
+
+    def __get_images_number(self):
+        path = '../images'
+        dirs = os.listdir(path)
+        return len(dirs) - 2
+
+
+class Poem:
+
+    def __init__(self):
+        self.poem = {}
+
+    def get_poem(self):
+        category = 0
+        if category == 0:
+            self.poem = self.get_ci()
+        elif category == 1:
+            self.poem = self.get_shi()
+        elif category == 2:
+            self.poem = self.get_shijing()
+        elif category == 3:
+            self.poem = self.get_wudai()
+        return self.poem
+
+    def get_ci(self):
+        addr = '../poem/ci/ci.song.' + str(get_random_number(21) * 1000) + '.json'
+        poems_array = json.load(open(addr, 'r', encoding='utf-8'))
+        poem = poems_array[get_random_number(len(poems_array))]
+        poem['title'] = poem['rhythmic']
+        return poem
+
+    def get_shi(self):
+        random_number = get_random_number(1)
+        addr = '../poem/shi/poet.' + ['song', 'tang'][random_number] + '.' + str(
+            get_random_number([254, 57][random_number]) * 1000) + '.json'
+        poems_array = json.load(open(addr, 'r', encoding='utf-8'))
+        return poems_array[get_random_number(1000)]
+
+    def get_shijing(self):
+        addr = '../poem/shijing/shijing.json'
+        poems_array = json.load(open(addr, 'r', encoding='utf-8'))
+        poem = poems_array[get_random_number(len(poems_array))]
+        return {
+            'title': poem['chapter'] + '·' + poem['section'] + '·' + poem['title'],
+            'paragraphs': poem['content'],
+            'author': ''
+        }
+
+    def get_wudai(self):
+        addr = '../poem/wudai/' + ['poetrys', '花间集卷第一', '花间集卷第二', '花间集卷第三', '花间集卷第四', '花间集卷第五', '花间集卷第六', '花间集卷第七',
+                                   '花间集卷第八', '花间集卷第九', '花间集卷第十'][get_random_number(10)] + '.json'
+        poems_array = json.load(open(addr, 'r', encoding='utf-8'))
+        return poems_array[get_random_number(len(poems_array))]
+
 
 if __name__ == '__main__':
-    file = open("test.txt", "w")
+    file = open("test.txt", "a")
     poem = Poem()
     poem_json = poem.get_poem()
     image = Image(poem_json)
