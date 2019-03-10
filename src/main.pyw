@@ -26,7 +26,7 @@ class Image:
 
     def get_image(self):
         if self.__setting['shouldChangeImage']:
-            im = IMAGE.open('../images/' + str(get_random_number(self.__get_images_number())) + '.jpg')
+            im = IMAGE.open('../images/DesktopImage/' + str(get_random_number(self.__get_images_number())) + '.jpg')
         else:
             im = IMAGE.open(self.__setting['imagePath'])
         ttfont = ImageFont.truetype('STFANGSO.TTF', 20)
@@ -38,12 +38,12 @@ class Image:
             poem_string += sentence + '\n'
         draw.text((xSize * 0.5, ySize * 0.05), poem_string, fill=(255, 255, 255), font=ttfont)
         timeString = str(int(time.time()))
-        im.save('../images/' + timeString + '.jpg')
+        im.save('../images/DesktopImage/' + timeString + '.jpg')
         k = win32api.RegOpenKeyEx(win32con.HKEY_CURRENT_USER, "Control Panel\\Desktop", 0, win32con.KEY_SET_VALUE)
         win32api.RegSetValueEx(k, "WallpaperStyle", 0, win32con.REG_SZ, "2")
         win32api.RegSetValueEx(k, "TileWallpaper", 0, win32con.REG_SZ, "0")
         win32gui.SystemParametersInfo(win32con.SPI_SETDESKWALLPAPER,
-                                      os.path.abspath('../images/' + timeString + '.jpg'),
+                                      os.path.abspath('../images/DesktopImage/' + timeString + '.jpg'),
                                       win32con.SPIF_SENDWININICHANGE)
 
     def __get_images_number(self):
@@ -107,7 +107,7 @@ class Poem:
 
 class Setting:
     def __init__(self):
-        self.__setting = json.load(open('setting.json', 'r'))
+        self.__setting = json.load(open('setting.json', 'r', encoding='utf-8'))
 
     def get_setting(self):
         return self.__setting
@@ -115,8 +115,17 @@ class Setting:
 
 if __name__ == '__main__':
     setting = Setting().get_setting()
-    poem = Poem()
-    poem_json = poem.get_poem()
+    if not setting['usingThisProgram']:
+        exit()
+    if setting['shouldRemoveBeforeImage']:
+        files = os.listdir('../images/DesktopImage')
+        for file in files:
+            os.remove('../images/DesktopImage/'+file)
+    if setting['shouldChangePoem']:
+        poem = Poem()
+        poem_json = poem.get_poem()
+    else:
+        poem_json = setting['poem']
     image = Image(poem_json, setting)
     image.get_image()
     exit()
