@@ -9,12 +9,15 @@
 
 # setting.json
 
-### shouldChangeImage: 是否需要更换背景图，值为 true 或者 false
+shouldChangeImage: 是否需要更换背景图，值为 true 或者 false
 
-### imagePath: 如果不需要更换背景图时，给定的背景图地址
+imagePath: 如果不需要更换背景图时，给定的背景图地址
 
-### usingThisProgram: 是否在开机后运用本程序，值为 true 或者 false
+usingThisProgram: 是否在开机后运用本程序，值为 true 或者 false
 
-### shouldChangePoem: 是否需要更换诗词，值为 true 或者 false
+shouldChangePoem: 是否需要更换诗词，值为 true 或者 false
 
-### shouldRemoveBeforeImage: 是否需要删除之前的桌面图，值为 true 或者 false
+shouldRemoveBeforeImage: 是否需要删除之前的桌面图，值为 true 或者 false
+
+# 效果图
+![效果图](readme_desktop.jpg)
