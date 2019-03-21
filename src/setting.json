@@ -2,7 +2,7 @@
     "usingThisProgram": true,
     "shouldChangeImage": false,
     "imagePath": "C:\\Users\\ZGuo32\\Desktop\\desktop_with_poem\\images\\0.jpg",
-    "shouldChangePoem": false,
+    "shouldChangePoem": true,
     "poem": {
         "title": "青玉案·元夕",
         "paragraphs": [
